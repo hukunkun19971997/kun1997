@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include <stdlib.h>
-#include "camera.h"    //
+#include "camera.h"    
 
 int source=1;
 pthread_mutex_t mutex;
@@ -44,7 +44,6 @@ int  main()
        printf("+++++++++++\n");	
 	}
 //*******************************************************************************************   	
-	//父进程	
 	else
 	{	
 	int fdSerial=0;
